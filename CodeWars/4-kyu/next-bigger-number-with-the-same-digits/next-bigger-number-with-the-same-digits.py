@@ -10,4 +10,4 @@ def next_bigger(n):
         j -= 1
     digits[i], digits[j] = digits[j], digits[i]
     digits[i+1:] = reversed(digits[i+1:])
-    return int("".join(digits))
+    return int(''.join(digits))
